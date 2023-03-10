@@ -1,0 +1,38 @@
+#error {
+    color: red;
+    font-weight: bold;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: crimson;
+  }
+  
+  div {
+    margin: 10px 0;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 1rem;
+  }
+  
+  button[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
