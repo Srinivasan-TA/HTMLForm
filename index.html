@@ -3,26 +3,33 @@
 
     <head>
         <link rel="stylesheet" href="style.css">
-                <title>Validation Form</title>
+        <link rel="icon" type="image/x-icon" href="logo1.jpg">
+        <link rel="icon" type = "image/x-icon" href="https://thumbs.dreamstime.com/b/vector-illustration-isolated-white-background-login-button-icon-126999949.jpg">
+        <title>Validation Form</title>
     </head>
     <body>
+      <div class="header">
+        Signup Now
+      </div>
+      <div class="container">
+      
         <div id="error"></div>
         <form id="form"> 
           <div>
             <label for="name">Name</label>
-            <input id="name" name="name" type="text">
+            <input id="name" name="name" type="text" placeholder="Only text & Space Allowed">
           </div>
           <div>
             <label for="name">Address</label>
-            <input id="address" name="address" type="text" >
+            <input id="address" name="address" type="text" placeholder="Only text & Space Allowed">
           </div>
           <div>
             <label for="password">Password</label>
-            <input id="password" name="password" type="password">
+            <input id="password" name="password" type="password" placeholder="Passwords are Hidden">
           </div>
           <div>
             <label for="age">Age</label>
-            <input type="number" id="age" name="name" type="text">
+            <input type="number" id="age" name="name" type="text" placeholder="Only numbers are allowed">
           </div>
           <div>
             <label for = "DOB"> Date Of Birth </label>
@@ -31,7 +38,7 @@
           <button type="submit">Submit</button>
         </form>
         <script src="index.js" ></script>
-
+      </div>
     </body>
 </html>
 
